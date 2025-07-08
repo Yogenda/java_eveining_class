@@ -1,0 +1,63 @@
+Q. What is the purpose of learning programming language?
+Ans: 
+	to talk with computer
+	s/w develop
+	application
+
+- different types of application we develop in java?
+
+Network application: these application are used in client/ server environment.
+	these are mainly used in Org. where data has to be referred / shared with others.
+	eg: banking s/w
+		insurance s/w
+
+Web application: these application are used in internet 
+	eg: All website(Web application)
+
+Desktop application: these application are used in local system only.
+	eg: Notepad, office, tools, .....
+	Billing S/W
+
+mobile application: These application are used in mobile.
+	Ex: all mobile apps.
+
+Device Application: these application are used for activation of electronic devices.
+	Ex: Device Drivers.
+to develop these all types of applications use java, dotnet..... are useful.
+
+
+what is java?
+it is a general purpose and object oriented programming language used to develop different types of applications. 
+
+3 section in java
+- core java - j2se - java 2 standard edition
+	all the language funda's
+- adv. Java - J2EE - Java 2 Enterprise edition 
+	it is meant for developing application.
+- J2ME - Java 2 Micro Edition
+	it is meant for developing Mobile application
+
+latest stable version of java: 21 LTS
+
+all java update/s/w can be downloaded from Oracle
+
+For learning any programming language:-
+Tokens: variables, constants, keywords, operators.
+Data Type:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
