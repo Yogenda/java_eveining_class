@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author yogen
+ *
+ */
+module YotubeClass {
+}
