@@ -45,6 +45,279 @@ For learning any programming language:-
 Tokens: variables, constants, keywords, operators.
 Data Type:
 
+------------------------------------------------------
+# class 2
+
+
+variables: It is named memory location to store values temply.
+	these are having a facility to modify values whenever required.
+
+rules for naming:- 
+- name must be one word
+- it should start with either alphabet / _ (underscore)
+- name must have alphanumeric.
+
+constants: These are one type of variable which will not allow to modify it's value once it is assigned.
+
+keywords: These are the reserved words of the programming language which is having specific action/ meaning.
+
+java has 50+ keywords: char, byte, int, short, double, long, float, if, else, while, for, case.
+
+Data Type:- 
+Primitive: provided by the programming language
+	Number based: all the numbers can grouped by dividing into two parts
+		Integer:- all the whole numbers
+			keywords: byte, short, int, long
+		decimal:- Numbers having decimal portion
+			keywords: float, double
+		
+	Text bases: all character is called as text/string.
+		these are 2 types:
+		character: either single alphabet/ single digit/ single symbol
+		characters enclosed in single quotes ('  ')
+			keyword: char
+		string:- Collection of characters
+			values are enclosed in ("  ")
+
+	Boolean: it allows us only 2 values true/ false
+		keyword: boolean
+		
+
+Non Primitive (user defined): these are created and used by the developer
+	keywords: enum, class, array, interface ......
+
+download and install java
+eclips idle
+
+
+structure java:
+
+importing package
+
+class <Classname>
+{
+	public static void main(String [] args)
+	{
+		body of the program
+	}
+}
+
+---------------------------------------------------
+
+class 3 notes
+function is used to solve a task.
+function is predefined world which has specific action. 
+it predefined instruction to perform any task. 
+these instruction will be written in a specific files called as library.
+
+c, cpp library files are called as header files.
+#inclued conio.h
+#include stdio.h
+
+in java these are called as package.
+
+1. packages: these are the library files for the java
+	usually a package is called as set of classes. and a class is consist of set of functions.
+
+import "package name"
+
+import java.io.*; //* represents all classes.
+import java.io.Console; //import a specific class.
+
+java.sql, java.lang, java.util ......
+
+2. Every java program start with "class" and identified by a class name.
+
+3. main():- the program execution starts with the main() method.
+
+4. void:- it specify that main() is not returning any value.
+
+5. static:- while calling a method to avoid object, than method starts with static.
+
+6. public:- to access class members outside the class, we use public.
+
+7. String[] args:- which explains in a concept of "command line arguments"l
+
+once method/function is created, to get output of that function we have to call that function in other function. 
+main() method will be called by the compiler.
+
+output statements:
+	System.out.println():- it is use to print statement / variable value line by line
+	System.out.print():- it is use to print statement / variable value side by side.
+
+
+notepad: first compile it (javac projectname.java)
+	second just run the java program(java projectname.java)
+
+
+-----------------------------------------------
+
+Class 4
+How to create a variable?
+	<data type> <variable name> [=<value>]
+		<...> = must be used 
+		[...] = optional (may or may not)
+
+	int x = 100; [right to left]
+for every variable, following properties are existed.
+	- Name
+	- value
+	- address
+	- Capacity(min val - max value)
+	- size of memory
+
+	eg: int x = 100;
+	float y = 12.45;
+	char ch = 'A'
+
+when ever you are using float data type use f at the end of the value. because it is treating it as double type.
+
+How to create a constant variable?
+	final <data type> <variable name> = <value>;
+	
+eg: final float pi= 3.14;
+
+
+Operator:- there are the symbols which has some action b/w operands.
+
+c=a+b
+operand= the value on which operation is performed. (a,b,c)
+operators= the symbol that is used to perform the operation (=, +)
+
+Arithematic operator: these are used to perform mathemaical calculation.
++(add), -(minus), *(multiplicaion), /(division), %(div- remainder)
+
+Relational Operators:  These are used to check the condition.
+>,<,>=,<=,!=(not equals), ==(equals)
+Note: the answer always going to be in bool value  (True/Fales)
+
+Logical Operators: These are used b/w conditions when multiple conditions are checking.
+Note: the answer always going to be in bool value  (True/Fales)
+&& (AND): All condition must be true.
+|| (OR):  any one condition must be true.
+!  (NOT): if condition is true it returns false and vice versa.
+
+AND Truth Table
+
+A	B	R
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+
+OR Truth Table
+A	B	R
+T	T	T
+T	F	T
+F	T	T
+F	F	F		
+
+NOT truth table
+A	R
+T	F
+F	T
+
+
+Assignment Operators: These are used to assign value to the variable / results of expressions are also assigned variables.
+
+=(Assigning values) +=, -=, /=, *=, %=
+
+int x=10;
+int y=20;
+
+x=y // x and y are value 20
+y=x // x and y are value 10
+
+int z = x+y; // z value is 30
+
+x=x+10; // mathematical equation
+x+=10; // prog equation
+
+Unary Operators: these are used to increase / decrease value by 1.
+	++ increase / increment by 1
+	-- decrease / decrement by 1
+x = x+1 (or) x++ 
+x = x-1 (or) x--
+
+classified into 2 type
+- pre increment: ++x (first increase/decrease then print)
+- post increment: x-- (fist print then increase/decrease)
+
+int x=10;
+int y= x++;
+sysout(y);
+----------------------------------------
+class 4
+
+conditional operator: These are used to check conditions.
+? :
+	(<condition> ? <true>:<false>)
+
+concatenation operator: these are used to concatenate any to stings or trying with other values.
++  = for concatenation two string 
+
+JDK JVM and JRE
+
+JDK = jvm + jre (combination of development tools and the set of library)
+
+JRE: Java Runtime Environment
+It will provide run time environment for java programs based on type of application.
+	ie. provide library for the program
+
+JVM: Java Virtual Machine
+	it is an execution engine for java, it will take care entire program execution JVM basically consist of different operating systems to provide environment.
+
+OS:
+windows
+Unix
+Linux
+mac os
+android
+
+
+Type casting or Type conversion:
+the process of converting values from one data type to another data type.
+
+two type of type casting
+- implicit: here converting process will be taken from lower data type to higher data type.
+	double -> long -> float -> int -> short -> byte
+
+- explicit: here converting process with be taken from higher data type to lower data type.
+	here we have to write addition statements to convert values.
+
+how to input values dynamically:
+
+Scanner Class: this class is used to input values into variable dynamically(at the time of program execution).
+
+- import java.util.Scanner package at the top of the program.
+- Create object for the scanner class as follows within the main()
+	Scanner <object> = new Scanner(System.in)
+	System.in => represents Keyboard.
+- read values into different data type.
+	byte = nextByte()
+	short = nextShort()
+int = nextInt()
+long = nextLong()
+float = nextFloat()
+double = nextDouble()
+char = nextCharacter()
+String = next() / nextLine()
+syntax
+variable = object.methodName()
+
+Calculate Area of circle : Area = PI*r*r
+PI = 3.14  (use it as constant)
+r that should be taken by user
+
+
+
+
+
+ 
+
+
+
 
 
 
