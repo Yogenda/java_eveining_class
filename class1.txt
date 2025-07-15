@@ -310,17 +310,81 @@ Calculate Area of circle : Area = PI*r*r
 PI = 3.14  (use it as constant)
 r that should be taken by user
 
+-----------------------------------------
+class 4
+
+Control statements
+these are the statements used to control the flow of program execution.
+	- Conditional
+	- Branching
+	- Looping
+
+Conditional: These are used check condition based on condition True/false some statements will be executed.
+"if" statement is used to check condition.
+
+simple if:
+------------
+if(condition)
+{
+	set of statements
+}		
+
+
+If-Else-
+-------
+if(condition)
+{
+	set of statements
+}
+else
+{
+	set of statement
+}
+
+// accept a number and check is it +ve or -ve
+
+
+else-if
+-------
+if(condition)
+{
+	set of statements
+}
+else if(cond-2)
+{
+	set of statement
+}
+------------
+--------------
+--------------
+---------
+[else
+{
+	set of default statement
+}]
 
 
 
+Nested if
+-----------
+a if condition within another if condition.
 
- 
+if(condi-1)
+{
+	if(condi-2)
+	{
+		----------
+	}
+}
+
+//Accept person age and gender, then check marriage eligibility
+// male: age>= 21 and gender=male
+// female: age >=18 and gender = female
 
 
-
-
-
-
+equal("male") = male (correct)   Male (wrong)
+equalsIgnoreCase("Male")  = male(correct)   Male(correct)  MALE(correct)
+	MaLE(correct)
 
 
 
