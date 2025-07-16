@@ -387,7 +387,55 @@ equalsIgnoreCase("Male")  = male(correct)   Male(correct)  MALE(correct)
 	MaLE(correct)
 
 
+---------------------------------------
+Class 5
 
+Branching Statements: (Switch case statement)
+This is used to check multiple conditions on single variable whether values is equal or not.	
+
+switch(variable)
+{
+	case <vale-1>:
+		set of stmts
+		break;
+	case <val -2>:
+		set of stmts
+		break;
+	-------
+	--------
+	--------
+	default:
+		set of stmt
+		break;
+}
+
+you can use the read() for taking the input just a char and return it's ascii value
+exception raise.
+
+Loops:- the process of repeating a task for n number of times.
+if condition is true it will continue the loop once false it will end the loop.
+- while loop
+- do while loop
+- for loop
+- foreach
+
+while loop: this loop repeats its task until the given condition is true.
+
+variable inital value
+while(condition){
+	set of stmt
+	increment/decrement operator 
+} 
+
+Note: for any loop we need separate variable(initial value, condition, termination).
+
+
+H/W:
+1: accept the number then print it's factorial value
+	// 5!=5x4x3x2x1 = 120
+
+2: Accept the number then print it's reverse number
+	// 123 = 321
 
 
 
