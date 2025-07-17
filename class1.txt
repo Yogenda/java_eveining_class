@@ -438,6 +438,32 @@ H/W:
 	// 123 = 321
 
 
+--------------------------------------------------------
+Class 8
+For loop:- it is same as while loop but initialization, condition and iteration comes in a single line.
+
+for(initialization; condition; iteration)
+{
+	set of statements
+}
+
+H.W
+1. Accept the number then print it's reverse number
+	// 123 = 321
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
