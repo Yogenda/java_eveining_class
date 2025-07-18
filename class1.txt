@@ -452,6 +452,77 @@ H.W
 	// 123 = 321
 
 
+do-while loop: it is also as same as while loop but condition will be checked at the end of the loop.
+
+variable initial value
+do
+{
+	set of stmt
+	increment/decrement
+}
+while(condition);
+
+NOTE: if condition is false for the first time, while loop rotate task 0 times whereas do while rotates one time.
+
+------------------------------------------------
+class 9:
+- Nested loop
+a loop within another loop is called as nested loop.
+Purpose: To repeat looping process for n number of time.
+  
+H.W
+
+1 0 0
+0 1 0
+0 0 1
+------------
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+------------
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3
+1 2
+1
+-------------
+1 2 3 4
+1 2 3
+1 2
+1
+1 2
+1 2 3
+1 2 3 4
+-----------------
+print all prime numbers b/w 1-100
+----------------------------------------------------
+
+Arrays:-
+It is a variable which allows to store multiple value of specific data type. (Same type of data)
+
+Types of array: (array are of 3 types)
+- single dimensional array
+- Double/ 2d /multi dimensional array
+- Jagged Array
+
+Single Dimensional Array: the process of arranging values either in single row / single column.
+
+initialization process: <data type> <variable>[] = {val1, val2, ....}
+	int x[] = {10,20,30,40,50,60};
+
+Array provide to access each value, some numeric values called as index.
+	index starts from 0,1,2,3.....
+
+	arrayname[index] = to get value / to set new value
+
+	dynamic process: <data type> <variable>[] = new <data type>[size];
+		int x[] = new int[5];
+
+
 
 
 
