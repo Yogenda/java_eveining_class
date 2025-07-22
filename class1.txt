@@ -522,12 +522,82 @@ Array provide to access each value, some numeric values called as index.
 	dynamic process: <data type> <variable>[] = new <data type>[size];
 		int x[] = new int[5];
 
+-----------------------------------------------
+class 10
+
+Double dimensional array: the process of arranging the values in no of rows and no of columns. 
+
+1 2 3 
+4 5 6
+7 8 9
+
+Initialization process:-
+	<data type> <variable>[][] = {{val1,val2},{val1,val2},......};
+	int x[][]={{10,20,30},{40,50,60}};
+
+index always starts from 0
+
+arryname[row index][col index] = to get value/ to set value
+	x[0][0] = 10
+	x[0][1] = 20
+	x[0][2] = 30
+
+	x[1][0] = 40
+	x[1][1] = 50
+	x[1][2] = 60
 
 
+Dynamic process
+	<data type> <var> [][] = new <dataType> [row][col];
+	int x[][] = new int [3][3];
+
+--------------------------------------
+Class 11
+
+Jagged Array: this is one type of multi dimensional array but here no of rows are fixed and in every row different no of columns are exist.
+
+<data type>[] <var>[]={{v1,v2,v3...},{v4,v5,.....},{..}.......};
+int x[][] = {{10,20,30},{40,50},{60,70,80,90}};
+
+Here also maintains index numrs but each row and col having index no starting from 0,1,2,3,....
+
+Dynamic process
+	<data type> <var>[][] = new <data type> [row][];
+for column specific
+	var[row size] = new <data type>[no of col];
+
+it has to repat for n number of row
+	int x[][] = new int [3][];
+	x[0]=new int [3];
+	x[1]=new int [4];
+	x[2]=new int [2];
 
 
+H.W
+- Accept values in 3x3 matrix then print it's transpose matrix
+row will become col 
+col will become row
 
+- Write a program to extract all even number from double dimensional array, then add those values into single dimensional array, then print
 
+- write a program to multiply the matrix
+
+String:- It is a collection of characters/ Array of characters.
+- string should always enclosed with in double quotes (" ")
+- To declare string var "String" class is used.
+- String class is an immutable class. The value assigned in string variables can not be modified.
+- characters nothing but an alphabet/ a digit/ a symbol.
+- String value ends with null(\0) value.
+
+String <var> = "value";
+String str = "java";
+String adrs= "Door no: 607, abc soc";
+
+String Functions:- 
+- toUpperCase() : it coverts string into upper case letter
+- toLowerCase() : it coverts string into lower case letter
+- length(): to count no of char into a string.
+- charAt(index) : it will print a character from string based on index number.
 
 
 
