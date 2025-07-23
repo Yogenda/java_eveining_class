@@ -599,6 +599,77 @@ String Functions:-
 - length(): to count no of char into a string.
 - charAt(index) : it will print a character from string based on index number.
 
+---------------------------------
+Class 12
+
+- equal():- it check given 2 string are same or not.
+- equalIgnoreCase():- it is as same as equal() but it ignores case sensitive.
+- compareTo():- it allows use to compare two string to find which is big/small/equals.
+	fist string bigger than second string return >0
+	fist string small than second string return < 0
+	if values are same return 0
+- compareToIgnoreCase():- same as compareTo() but it ignore the case sensitive.
+- concat():- concatenate two string
+- contains():- search a substring within the string.
+
+HW
+- count the following items from string
+	no of alphabets
+	no of digits
+	no of symbols
+	no of space
+
+User defined methods / Function:- 
+	every programming language is a function base language
+2 type of functions
+- pre-defined: these function are given by the prog. language.
+- user defined: these function are created and used by the developer/ user as per the requirement.
+
+Purpose of user defined method/functions.
+- to avoid the complexity of the program
+- to implement the OOPs programming
+- Reusability of code.
+
+2 steps to define methods
+1. Method Define: process of creating a method with a task.
+	<return type> <method name>([arguments]){
+		body of the method
+	}
+- Methods name must be only one word.
+- arguments are the var which receives values at the time of calling a method.
+	these are may or may not have methods.
+	a method can take any number of arguments.
+- return type is a type where a method is providing final result of the method process.
+methods won't return any value, at that time method starts with "void" keyword.
+
+NOTE:- A function can be defined either above/ below of the main() method.
+
+4 ways of defining the function 
+- without argument and without return type
+	void Sample(){
+		............
+	}
+- with argument and without return type
+	void Sample(int x, float y){
+		...............
+	}
+- with argument and with return type
+	float Sample(int x, float y){	
+		..........
+		return <expression/value>
+	}
+- without argument and with return type
+	int Sample(){
+		...........
+	}
+
+2. Method calling
+	method_name([arguments value]);
+
+	a function called with in another function 
+	usually main() method.
+
+
 
 
 
