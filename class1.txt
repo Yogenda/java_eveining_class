@@ -669,6 +669,49 @@ NOTE:- A function can be defined either above/ below of the main() method.
 	a function called with in another function 
 	usually main() method.
 
+-----------------------------------------------
+class 12
+Objects
+class
+types of members
+constructors
+Object Oriented Programming Structure(OOPs)
+it is a programming methodology / Architecture where it provides security for the data.
+
+before OOPS there was a methodology, which is called as Procedural oriented programming structure(POPS)
+importance is how to solve the problems.
+Eg: pops: 'C' Lang.
+
+OOPS Concepts:- 
+object
+class
+abstraction
+encapsulation
+inheritance
+polymorphism 
+
+Object:- it a thing in the real world which as some properties and some actions.
+
+eg:- mobile is a object
+	Properties:
+		size, color, model, company, .....
+	Actions/behavior:
+		Make call, surfing internet, .....
+
+Note: Every object is an instance of their parent unit.
+
+
+class:- it is blueprint for an object.
+		or
+	it is an template of an object.
+
+it is an encapsulated cell which meant for defining properties and functions of an object.
+
+class <ClassName>
+{
+	var declare
+	methods define
+}
 
 
 
