@@ -713,9 +713,48 @@ class <ClassName>
 	methods define
 }
 
+--------------------------------------------
+class 14
+
+how to create the class? -- done
+how to create object? -- done
+
+Access Modifiers:-
+These are the keywords which specifies how to access class members either inside and outside the class.
+
+Private: it allows to access class members only inside the class.
+
+Public: it allows to access class members inside and outside the class
+	by default class members are public.
+
+Protected: it allows to access class members into another specific class.
+
+Type of class members:
+
+There 2 type of members
+- non-static members: binded with class object. ie. memory of non static members is inside the object.
+	it gives multiple copies of data.
+
+- static member:
+a. static method can handle static variable only.
+b. static method can be called with the help of class name.
 
 
+Constructors:- special methods of class, which has same name as class.
 
+Purpose: is to specify initial process of an object. 
+
+every class is having a default constructor, which is invisible.
+public classname([prara maeters]){
+	body of constructor
+}
+
+- It will be called automatically whenever the object is created.
+- it can take parameter, for parameters we have pass values at the time of object creation.
+- no return type.
+- a class can have multiple constructors, but the parameters should be different.
+
+"this" Keyword:- it separate class variable and parameters variable when both variable name are same.
 
 
 
