@@ -756,6 +756,35 @@ public classname([prara maeters]){
 
 "this" Keyword:- it separate class variable and parameters variable when both variable name are same.
 
+-------------------------------
+
+Class 15
+Getters and setters
+These are the special methods to access a class private var outside the class.
+
+setter methos are used to assign value to the var and if required we can also do it for validating for that input.
+
+void setVarName(argument){
+	this.instance var = arg var
+}
+
+get methods are used to return values from the var
+
+<return type> getVarName(){
+	return <varName>;
+}
+
+For Naming convention 
+	String sname;
+	void setSname(String sname)
+	{
+		this.sname= sname;
+	}
+
+	String getSname()
+	{
+		return sname;
+	}
 
 
 
