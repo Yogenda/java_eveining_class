@@ -786,6 +786,53 @@ For Naming convention
 		return sname;
 	}
 
+-----------------------------------------
+class 16 
+4 major pilers of OOPs
+- Inheritance
+- Abstraction 
+- Polymorphism 
+- Encapsulation
+
+Inheritance: it is a process of getting features from existing item to new item.
+
+purpose:- increase the reusability of classes.
+
+existing item is called as parent
+new item is called as child
+
+Parent - Base - Super
+Child - Derived - Sub
+
+Note: inheritance always will be done from parent to child.
+
+class <child class> extends <parent class>
+{
+	---------
+	body of program
+}
+
+1. As per inheritance no need to create any object for parent class, just create an object for child class then call parent class method and child class method with child class object.
+
+2. To activate parent class data into child class "protected" access Specifier has to be used while declaring var in parent class.
+
+
+Type of Inheritance:- 
+- Single
+- Multi level
+- Multiple
+- Hierarchical
+- Hybrid 
+
+Constructors in Inheritance:
+- a parent class constructors will be executed with the help of child class object.
+- both parent and child class constructors are executed with the help of child class object if those constructors are not having any argument.
+- if both parents and child constructors are having parameters, then call the parent class constructor in child class constructor by using "super()"
+
+super() :- it will call parent constructor into child class constructor when those cons are having argument.
+
+
+
 
 
 

@@ -5,6 +5,7 @@ public class Employee {
 	private String ename;
 	private String job;
 	private int sal;
+	
 	public int getEmpno() {
 		return empno;
 	}
