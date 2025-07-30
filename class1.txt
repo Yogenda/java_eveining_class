@@ -831,11 +831,236 @@ Constructors in Inheritance:
 
 super() :- it will call parent constructor into child class constructor when those cons are having argument.
 
+-----------------------------------------
+class 17
+# Student Details - Constructor
+Create a class Student with the private attributes
+- int studentId
+- String studentName, studentAddress, collegeName. 
+
+Include appropriate getter and setter methods.
+Write 2 constructors for the Student class based on the below assumptions. 
+Assume most of the students are from “NIT” college. So user has to give input whether the student is from NIT or not. 
+
+If student belongs to NIT, give input as 'yes/YES' and  skip input for the attribute collegeName  and create student object with 3-argument constructor to initilze the values for studentId, studentName and studentAddress and  collegeName as “NIT”.
+
+If student belongs to other college, give input as 'no/NO' and get college name from the user and create student object with 4-argument constructor to initialize all the values. 
+
+Instead of Yes / No, if user enters different input then display 'Wrong Input' and get the input again.
+Based on the above assumptions write the necessary constructors in the Student class.
+
+Write a class StudentMain with the main method and test the application. 
+
+Get all the input needed from the main method. 
+
+> Sample Input 1:
+
+    Enter Student's Id:
+    12
+    Enter Student's Name:
+    John
+    Enter Student's address:
+    Chennai
+    Whether the student is from NIT(Yes/No):
+    NO
+    Enter the college name:
+    SVS
+
+> Sample Output 1:
+
+    Student id:12
+    Student name:John
+    Address:Chennai
+    College name:SVS
+
+---
+
+> Sample Input 2:
+
+    Enter Student's Id:
+    43
+    Enter Student's Name:
+    Tom
+    Enter Student's address:
+    Coimbatore
+    Whether the student is from NIT(Yes/No):
+    y
+    Wrong Input
+    Whether the student is from NIT(Yes/No):
+    yes
+
+> Sample Output 2:
+
+    Student id:43
+    Student name:Tom
+    Address:Coimbatore
+    College name:NIT
+
+Problem 2
+
+# Ticket Price Calculation - Static
+
+Create a class Ticket with the following private variables
+
+- int ticketid;
+- int price;
+- static int availableTickets;
+
+Include getters and setters methods in the Ticket class.
+
+AvailableTickets should hold only positive value. Zero and negative values are not allowed.(This logic should be checked inside the corresponding setter method)
+
+Write the following method in the Ticket class:
+
+`public int calculateTicketCost(int nooftickets)` — this method should check the ticket availability, If the tickets are available, reduce the nooftickets from availableTickets and calculate the total amount as nooftickets*price  and return the total amount.  If the tickets are not available, this method should return -1.
+
+Write a main method in the Main class to test the application.
+
+> Sample input and output
+
+    Enter no of bookings:
+    2
+    Enter the available tickets:
+    25
+    Enter the ticketid:
+    123
+    Enter the price:
+    100
+    Enter the no of tickets:
+    5
+    Available tickets: 25
+    Total amount:500
+    Available ticket after booking:20
+    Enter the ticketid:
+    124
+    Enter the price:
+    100
+    Enter the no of tickets:
+    2
+    Available tickets: 20
+    Total amount:200
+    Available ticket after booking:18
+====================================
+
+problem 3
+# Average and Grade Calculation
+
+Develop a smart application as Student Grade Calculator(SGC).
+
+Create a class Student with following private attribute :
+
+int id, String name, marks(integer array), float average and char grade. Include appropriate getters and setters methods and constructor.
+
+`public  void calculateAvg()`- This method should calculate average and set average mark for the current student.
+
+`public void findGrade()`- This method should set the grade based on the average calculated. If the average is between 80 and 100 then, then return grade as 'O', else 'A' .If the student gets less than 50 in any of the subjects then return grade as 'F'. Using appropriate setter method set the grade to the student.
+
+(Note : number of subject should be greater than zero, if not display as 'Invalid number of subject' and get number of subject again, Assume mark for a subject should be in the range 0 - 100.  If not display a message "Invalid Mark" and get the mark again)
+
+Write a class StudentMain and write the main method.
+
+In this class, write a method
+
+`public static Student getStudentDetails()` - this method should get the input from the user for a student, create a student object with those details and return that object.
 
 
+In main create student’s object by invoking the getStudentDetails method.  Also calculate average and grade for that student object using appropriate methods.
 
+SGC app should get the input and display the output as specified in the snapshot:
 
+> Sample Input 1:
 
+    Enter the id:
+    123
+    Enter the name:
+    Tom
+    Enter the no of subjects:
+    3
+    Enter mark for subject 1:
+    95
+    Enter mark for subject 2:
+    80
+    Enter mark for subject 3:
+    75
+
+> Sample Output 1:
+
+    Id:123
+    Name:Tom
+    Average:83.33
+    Grade:O
+
+---
+
+> Sample Input 2:
+
+    Enter the id:
+    123
+    Enter the name:
+    Tom
+    Enter the no of subjects:
+    0
+    Invalid number of subject
+    Enter the no of subjects:
+    3
+    Enter mark for subject 1:
+    75
+    Enter mark for subject 2:
+    49
+    Enter mark for subject 3:
+    90
+
+> Sample Output 2:
+
+    Id:123
+    Name:Tom
+    Average:71.33
+    Grade:F
+
+=============================
+
+problem 4
+
+# Employee Salary Calculation
+
+Create a class Employee with the following private member variables.
+
+- int employeeId
+- String employeeName
+- double salary
+- double netSalary
+
+Include appropriate getters and setters method in Employee class. Write the following method in the Employee class:
+
+`public void calculateNetSalary(int pfpercentage)`  - This method should take PF percentage as argument. Deduct the PF amount from the salary and set the netSalary.  
+
+Create a Main class which has the main method which invokes the method to get the input and prints the details as shown in the sample. 
+
+Also write a method :
+
+- `public static Employee getEmployeeDetails()` -  which gets the employee details - id, name and salary, and returns the employee object.
+
+- `public static int getPFPercentage()` -  which gets the PF percentage and returns the same
+
+In the main method invoke the above two methods, and then call the calculateNetSalary method in Employee class and print the output as shown below.
+
+> Sample Input 1:
+
+    Enter Id:
+    101
+    Enter Name:
+    Vivek
+    Enter salary:
+    20000
+    Enter PF percentage:
+    7
+
+> Sample Output 1:
+
+    Id : 101
+    Name : Vivek
+    Salary : 20000.0
+    Net Salary : 18600.0
 
 
 
