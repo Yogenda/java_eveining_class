@@ -1061,6 +1061,81 @@ In the main method invoke the above two methods, and then call the calculateNetS
     Name : Vivek
     Salary : 20000.0
     Net Salary : 18600.0
+-----------------------------------------
+class 18
+Abstraction: process of hiding the internal implementation details and only display the essential features of an object.
+most focus on what an object does not on how it is done.
+
+class which is declaed with abstract keyword is know as abstract class.
+it has some abstract and non abstract method (methods with the body).
+
+Data abstraction: process of hiding the implementation details and showing only functionalities to the user.
+
+Ways to achieve the abstraction
+we can do in 2 different ways
+- Abstract class (0 to 100%)
+- Interface (100%)
+
+Abstract class
+- a class which is declared as abstract class
+- it has abstract and non abstract methods
+- it need to be executed and its methods implemented.
+- it can not be inherited.
+
+abstract class demo{
+	abstract methods (only declaration of the methods)
+	not abstract methods (methods having definition-concrete methods)
+}
+
+points to remember:
+- class must be declared with an abstract keyword.
+- it has abstract and non abstract methods
+- it cannot be instantiated.
+- it can have contractors and static methos
+
+
+Note: Every abstract class is a parent class in inheritance.
+
+Abstract methos: 
+the methods which is declared as abstract and does not have implementation is knows as abstract methods.
+
+one abstract method can have multiple actions in their child class.
+
+Interface: it is one type of class where it allows only declaration of methods and variables.
+it is also called as pure abstract class.
+
+Purpose:-
+- to achieve the full abstraction.
+- to achieve multiple inheritance.
+- Loosly coupling
+
+interface <iface name>
+{
+	method declaration
+	variable declaration
+}
+
+Note:- 
+- it cannot be instantiated(objects cannot be created)
+- By using "implements" keyword we have to inherit interface to the class.
+- A class can inherit any no of interfaces.
+- declared method in interface will have definition on child class.
+
+class <class name> implements <interface1,interface2,.........>{
+	............
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
