@@ -1219,6 +1219,66 @@ it is also known as compile time polymorphism.
 H/W practice 2 folder problems
 
 
+-----------------------------------------
+class 20
+
+Overriding: replacement feature of existing unit/item by changing its default action.
+	this can be achieved with Method Overriding
+
+Method Overriding: whenever both parent and child class are having same content. 
+	ie. same method name including parameters.
+
+
+Rules: 
+- class must be under inheritance.
+- parent and child class should have same content (method name including parameters.)
+- create a obj for parent class the call the method
+- create a obj for child class then assign obj to the parent object.
+	parClassObj = childClassObj
+- now call method with parent class obj, then calling will be done from child.
+
+
+Inner Class: a class within the class
+
+class <outer class>
+{
+	............
+	class <inner class>
+	{
+		........
+	}
+}
+
+Purpose: to access one class private members into another class without loosing data security.
+
+
+class out 
+{
+	private int x,y;
+	void get()
+	{
+		x,y variable can be access here
+	}
+	class inner{
+		x,y variable can be access here also
+	}
+}
+
+different type of inner class:
+- Member Inner Class
+	these classes are created within another class, here to create object for inner class.
+	
+	OuterClass.InnerClass <object> = OuterClassObj. new InnerClass();
+- Local Inner Class
+- Static Inner Class
+
+
+
+
+
+
+
+
 
 
 
