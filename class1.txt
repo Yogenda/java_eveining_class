@@ -1264,22 +1264,69 @@ class out
 	}
 }
 
+-----------------------------------------
+class 21
+
 different type of inner class:
 - Member Inner Class
 	these classes are created within another class, here to create object for inner class.
 	
 	OuterClass.InnerClass <object> = OuterClassObj. new InnerClass();
+
 - Local Inner Class
+	these class are created within the outer class method, then it is called as local inner class.
+Here it is possibe to create for inner class outside of that method.
+so that create and calling methods has to be done with in the same method.
+
 - Static Inner Class
+	these classes are used to handle outer class static data.
+	since it is static inner class, no need to depend on outer class object to create object for inner class.
+
+	OuterClass.InnerClass obj = new outerClass.InnerClass();
+
+Note: An Outer class also provide a facility to create interface also. That interface have to be implemented in inner class only.
 
 
+Exception Handling:- every programming lang have error handling process. 
 
+2 type of errors found in coding.
+- compile time error: syntax error or error occurred at the time of compiling the program
+	- missing semi colon
+	- Missing double quotes
+	- array index invalid
+	- spelling mistake
 
+- run time error: occur at the time of program execution.
+	- when ever we enter invalid input.
+	- invalid operation.
+	- when proper s/w and h/w is not found.
 
+Exception Handling:- it process of handling run-time errors/ an abnormal situation for the program.
 
+java provides keyword: try, catch, finally, throw, throws
 
+try: it holds actual program, while executing program, it checks for an error occurs, if it found then it send to catch block.
 
+catch: this block receives error info from try block and allows to perform alternative action for the program.
 
+try{
+	........
+	Actual program
+	........
+}
+catch(ExceptionName obj){
+	........
+	alternate code
+	........
+}
+finally{
+	code must execute
+}
+
+all the exceptions are identified by it's own class as exception class.
+and these all class are child class of a parent class call as "Exception".
+
+Exceptions allows us to handle any type of exception.
 
 
 
