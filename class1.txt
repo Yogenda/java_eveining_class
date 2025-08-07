@@ -1286,6 +1286,8 @@ so that create and calling methods has to be done with in the same method.
 
 Note: An Outer class also provide a facility to create interface also. That interface have to be implemented in inner class only.
 
+-----------------------------------------
+class 22
 
 Exception Handling:- every programming lang have error handling process. 
 
@@ -1327,6 +1329,44 @@ all the exceptions are identified by it's own class as exception class.
 and these all class are child class of a parent class call as "Exception".
 
 Exceptions allows us to handle any type of exception.
+
+Exception are of 3 type:
+- Unchecked Exception: exceptions are identified and handled at the time of program execution by the compiler / jvm
+	these are handled with Try and catch block.
+
+- checked Exception: exception are identified at the time of coding / compilation by the compiler /JVM.
+	these are handled by "throws" keyword.
+
+void methodname(...) throws ExceptionName
+{
+	.............
+}
+
+- User Defined Exception:- these are created, raised and handled by the developer only.
+Purpose is to implements some business rules of the application.
+
+steps:
+- create a class and extends Exception class.
+	
+	class ClassName extends Exception
+	{
+		constructor(arguments)
+		{
+			super(arguments)
+		}
+	}
+
+- Raise that exception whenever it needed.
+	throw new <ExceptionClassName>(arg Value);
+
+- Handle that exception in catch block.
+
+
+
+
+
+
+
 
 
 
