@@ -1361,6 +1361,54 @@ steps:
 
 - Handle that exception in catch block.
 
+-------------------------------------------------------------
+
+Class 23
+I/O Stream
+Input Output stream:- 
+
+What is meant by a stream:-
+It is a collection/ Sequence of bits and bytes flowing from one medium to another medium is called as stream.
+
+Java provides you the standard I/o stream
+- Input stream: System.in (Standard Input Stream)
+		It represents always input from keyboard.
+		Scanner sc = new Scanner(System.in);
+- Output stream: System.out (Standard Output Stream)
+		It represents always output on Monitor.
+		System.out.println();
+- Error stream: System.err (Standard error Stream)
+		It represents always to print Error into.
+		System.err.println();
+
+Stream: it is classified into 2 parts.
+- InputStream:-  It is an abstract class which as set of child class to perform some input stream operations and it has set of methos also.
+	read():- It allows to read characters from input stream(Keyboard/file/.......) and returns it's Ascii value, When it reach to end of input stream then it returns -1 value.
+
+	close():- It allows to close input stream once it's task has been done.
+
+- OutputStream: It is an abstract class which as set of child class to perform some Output stream operations and it has set of methos also.
+	- write(int) :- It allow to write a character on output stream(monitor/file/............), here it takes value in the form of ASCII value but it returns actual character.
+	
+	- write(byte[]):- it allow to write set of char which is in the form for bits and bytes it is return it's character format.
+	
+	- close():- it allows to close the output stream once the task has been done.
+
+Note:- these all classes and methods raise checked exception.
+	IOException
+	FileNotFound
+
+
+File Input/Output Operations:- here it allows to perform some operation on file ie write data into file/ read data from file, copying data from one file to another file etc.
+	
+FileOutputStream:- this class allows you to write some textual data in a specific file.
+	FileOutputStream <obj> = new FileOutputStream("file name");
+
+FileInputStream:- this class allows to read data from file.
+	FileInputStream <obj> = new FileInputStream("file name")
+
+
+
 
 
 
