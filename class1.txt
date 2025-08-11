@@ -1408,6 +1408,44 @@ FileInputStream:- this class allows to read data from file.
 	FileInputStream <obj> = new FileInputStream("file name")
 
 
+----------------------------------------
+Class 24
+FileWriter: it is also meant for writing data into a file directly in the form of characters.
+	it is a facility like if already exist the add the content.
+
+	FileWriter <object> = new FileWriter("filename", true/false)
+
+	true: append data
+	false: not append data.
+
+FileReader: It is used to open file to read data.
+	BufferReader:- this class is used to read data from specific input stream with the help of method called readLine().
+readLine() method reached to end of file, it return null.
+
+FileReader <object> = new FileReader("File Name");
+BufferReader <object> new BufferReader(FileReaderClassObject);
+
+file: it allows to perform different operations disk of the system.
+	operations like
+	- create new empty file
+	- create folder.
+	- check file/folder existed
+	- delete a file. folder
+	- showing list of files and folders.
+
+file <obj> = new file("filename/folder/location")
+
+methods of file class.
+
+	- createNewFile():it creats empty file.
+	- mkdir(): 
+	- exists()-
+	- deleted(): allows to delete a file.
+	- isdirector : It allows to check given number is file or not.
+	- list(): it allows to check fiber name is folder or not.
+
+
+
 
 
 
