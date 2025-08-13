@@ -1,7 +1,1 @@
-File Input/Output Operations:- here it allows to perform some operation on file ie write data into file/ read data from file, copying data from one file to another file etc.
-	
-FileOutputStream:- this class allows you to write some textual data in a specific file.
-	FileOutputStream <obj> = new FileOutputStream("file name");
-
-FileInputStream:- this class allows to read data from file.
-	FileInputStream <obj> = new FileInputStream("file name")
+Hello strudens how are you all
