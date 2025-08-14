@@ -1444,13 +1444,71 @@ methods of file class.
 	- isdirector : It allows to check given number is file or not.
 	- list(): it allows to check fiber name is folder or not.
 
+----------------------------------------
+Class 26
+Collection Framework.
+	list
+	set
+	map
+
+Data Structure:-
+
+Data: it is the collection of raw material / collection of input.
+
+Structure: managing that data in structural form in memory effectively.
+
+Operations that can be performed on data in an application.
+- Add new data
+- Traversing data
+- searching data
+- update data
+- delete data
+- sort data
+
+DS will give some concepts
+- Arrays
+- Stack
+- queue
+- linked list
+- tree
+- graph
+
+------------
+Collection framework:- 
+
+Collection:- it represents a single unit of object ie, a group of objects storing in one unit.
+
+Framework:- It is a readymade architecture which consist set of classes and interfaces.
+
+Collection framework: it ia unified architecture for storing and manipulating group of object.
+
+	If provide
+		interface and it's implemented classes
+		Algorithms(formulas)
+
+Purpose:- 
+- it has a high - performance, the implementations of the f/w in working with dynamic arrays, linked list, tree and so on....
+- collection f/w has to allow different type of collection to work in a similar manner and with high performance.
+
+it has collection of predefined interfaces and its' implemented classes. 
+package is called java.util
 
 
+Collection interface: 
+it a parent interface for other interface like list, set queue.
+it has some methods which will be used in all the child inf and there related classes.
+
+- add(obj): it is ment for adding an object / value to the collection(list, set, queue)
+- contains(obj): it check an obj/ value exist or not in a collection.
+- equals(obj): to compare two obj are equal or not.
+- remove(obj): it allows to delete an obj form collection
+- removeAll(): delete all the obj from collection.
 
 
+List Interface:- it a child interface of collection interface , it allows to store collection values/ objects in following way:
 
-
-
+ArrayList : it uses a dynamic array to store value in memeory.
+	List<DataType> <obj> = new ArrayList<DataType>(); 
 
 
 
