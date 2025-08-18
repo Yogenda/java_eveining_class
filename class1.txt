@@ -1511,6 +1511,79 @@ ArrayList : it uses a dynamic array to store value in memeory.
 	List<DataType> <obj> = new ArrayList<DataType>(); 
 
 
+-----------------
+class 28
+List: it is an interface which holds set of values/ obj.
+	- It allows duplicate values / object
+	- while traversing it maintains ordered collection.
+	- 4 implemented class
+		- Array list
+		- linked list
+		- vector
+		- stack
+
+Array list: it a class which allows to store value with dynamic array process.
+	- it allows to store unlimited data.
+	- it is a Non-sync (Parallel processing)
+	- by default value is set to null
+
+List<data type> obj = new ArrayList<datatype>();
+ArrayList<datatype> arrListName = new ArrayList<datatype>();
+
+
+LinkedList:- class arranges value in the form of doubly linked list.
+ie, collection of nodes are interlined with data and it's related address
+	it is also Non-sync
+
+
+vector: it is same as Array list but it is synchronized. so parallel processing in not possible.
+
+
+Set:- on the collection which has been derived form collection interface.
+- it will not allow duplicate values.
+- It represents the unordered set of value/ element (while traversing the elements will access randomly).
+- 3 implemented class
+	- hash set
+	- linked hash set
+	- tree set (sorted set interface)
+
+HashSet:- this class implements all the features of set interface.
+	Set<datatype> obj = new Hashset<datatype>();
+
+linked hash set:- it is same as hash set but the values are access in ordered format.
+	Set<datatype> obj = new LinkedHashSet<datatype>();
+
+Tree set: it is same as hash set but values are accessed by default in sorted(Ascending order)
+
+Note: Hash set and linked hash set allows one null value whereas tree set will not allow null values.
+
+collection interface 
+list - arraylist, linked list, vector, stack
+queue - priority queue, Deque(interface)- ArrayDequeue
+set - hash set, linkedhashset, sortedset(interface) - treeset
+
+collection
+map(interface) - hashtable, linkedhashmap, hashMap SortedMap (interface) - Tree map
+
+
+
+Map: It is one of the collection but it is not a part of collection interface. 
+	map is also an interface.
+it holds set of key- value pairs in one object.
+
+Implementd Classes
+- HashTable
+- LinkedHashMap
+- HashMap
+
+- Map<key DT, value DT> obj = new HashMap<key DT, value DT>();
+- key should not be duplicated, once key is defined that can not be modified.
+- HashMap will print key-value pairs randomly based on key.
+- LinkedHashMap will print key-value pairs ordered format on key.
+- TreeMap: will print key-value pairs in sorted order based on key.
+
+
+
 
 
 
