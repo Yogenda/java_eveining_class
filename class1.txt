@@ -1565,7 +1565,8 @@ set - hash set, linkedhashset, sortedset(interface) - treeset
 collection
 map(interface) - hashtable, linkedhashmap, hashMap SortedMap (interface) - Tree map
 
-
+-----------------
+class 29
 
 Map: It is one of the collection but it is not a part of collection interface. 
 	map is also an interface.
@@ -1577,10 +1578,67 @@ Implementd Classes
 - HashMap
 
 - Map<key DT, value DT> obj = new HashMap<key DT, value DT>();
+
 - key should not be duplicated, once key is defined that can not be modified.
 - HashMap will print key-value pairs randomly based on key.
 - LinkedHashMap will print key-value pairs ordered format on key.
 - TreeMap: will print key-value pairs in sorted order based on key.
+
+Map Methods:
+- put(key, value):- it allows to add key-value pair into map collection.
+- get(key):- it allows you to print the values based on key.
+- isEmpty():- it checks map collection is empty or not.
+- size():- it counts no of keys are present in collection.
+- containsKey(Key): search a key in map collection.
+- containsValue(Value) : search a value in map collection.
+- keyset(): it allow to get al lthe keys from the map collection and return as a set collection.
+- remove(Key): it removes a key form collection. it also delete the relevant value.
+-Entry<Key, value>: it allow to return key and value for map collection. it has to be used in for loop only.
+- entrySet(): it allows to get a key- value pair.
+- getKey(): print only key
+- getValue(): print only value.
+- replace(Key,new value): it allows to change value base on key.
+
+
+collection interface: it has group of objects list, set,Queue.
+-  declares methos (what to do , not how to do it).
+- it is the root of the collection hierarchy (except map)
+- operation we can perform.
+	- add(), addAll()
+	- remove(), removeAll()
+	- contains(), containsAll()
+	- size()
+	- isEmpty()
+	- clear()
+	- interator()
+	- toArray()
+
+collections class: utitlity class. it consists of static methos. 
+- utility class (declared as final with private constructors)
+- all the methos are static.
+
+methods:
+- sorting: Sort()
+- searching: binarySearch()
+- shuffling: shuffle()
+- Syncronization wrapper: synchronizedList(), synchronizedSet() (makes a Thread-safe version)
+- unmodifiable wrappers: unmodifiableList(), unmodifiableCollection() (creates a ready only view)
+- data manipulation: reverse(), fill(), copy()
+- Finding extreams: max(), min()
+
+
+Collection(Interface)			collections(Class)
+- type of interface			utility class
+
+- purpose is to define the		Helper methods to operate
+standard operations of a group 		on those groups
+of object 
+
+
+
+
+
+
 
 
 
