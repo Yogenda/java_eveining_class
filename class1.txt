@@ -1634,6 +1634,89 @@ Collection(Interface)			collections(Class)
 standard operations of a group 		on those groups
 of object 
 
+-----------------
+class 30
+MulitThreading
+
+What is Thread? : is a process/ Task
+Mulit Threading: is a process of excuting mulitple task at a time.
+
+till now the programming is done comes under the single threaded programming.
+
+Purpose of the multi threading: is to execute multiple indipendent threads at a time.
+	each thread is an independent thread
+	
+to work with multi thread
+two ways:
+	- using the thread class
+	- using the runnable interface
+
+Thread class: it is abstract class which has some methods.
+	- run(): abstract method, with this method we have to define a task.
+	- start(): it is use to start the thred execution process.
+	- sleep():- it is used to suspend thread process for a perticular period of time.
+	
+Runnable Interface: it an interface which as only one abstract method by the name run().
+
+using the thread class:
+	- Create a class and extend Thread class.
+	- Define the run() method, with a task which want's execute in threading.
+	- create an object for the class, then use start() method to execute thred.
+
+
+using the runnable interface
+	- Create a class and implents runnable interface
+	- define run() method with a task which want's exectue in threading.
+	- create an object for user-defined class
+	- create an object for thread class, while creating an obj, pass user defind class obj as constructor parameter.
+	- Now execute thread with thread class obj by using the start method.
+
+---------
+Life cycle of Thread:
+5 stages in the life cycle: 
+	- New born state: 
+		it as state where just creating an object from thread class.
+		
+	- Runnable state:
+		it is state where all the thread making available for the procss to processor it with be done by start() method.
+		
+	- Running state:
+		it is state where all threads being executed by the processor. ie, calling of the run() method.
+		
+	- Blocked state:
+		it is a state where thread being suspendded for a finite perid of time / unit user resumes the thread execution. sleep(), suspend().....
+		
+	- Dead state: 
+		it is a state wher thread will be deletd once run() method process is completed.
+
+-------------
+Naming Thread:- as pet the threading concept every thread creaed by us, processor will give a name.
+Thread-0, Thread-1, Thread-2 ........
+and it will provide changin a name for these thread also.
+
+getName():-showing thread name.
+setName():- ment for changing the thread name.
+
+Priority Thread: it is the process of which thread should execute first.
+usually threads are execut randomly based on processor priority.
+but hera thread priority will get a facily for making thread execution in an order but it it is not guaranteed but it depend on JVM.
+
+priority are represented by a number b/w 1 and 10.
+thread priority will be taken care by the thread schedular.
+
+getPriority(): show present priority or the thread.
+setPriority(): uset to set priority of the thread.
+
+3 priority constants
+- MIN_PRIORITY = 1
+- MAX_PRIORITY = 10
+- NORM_PRIORITY = 5
+
+these thread which is having max priority, the will execute first.
+
+
+
+
 
 
 
