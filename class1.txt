@@ -1714,6 +1714,27 @@ setPriority(): uset to set priority of the thread.
 
 these thread which is having max priority, the will execute first.
 
+-----------------
+class 31
+Thread Syncronization:- it is a capability to control the access of mulitple thread to any shared resource.
+
+Purpose:- 
+ - helps to prevent thread interference.
+ - helps to prevent concurrency problem.
+
+we achieve in 3 different ways:
+	- Syncronization method (method level)
+	- Synchronized block (block level)
+	- static syncronization.
+
+InterruptedException
+
+// write a program for syncronization(Method)
+// -- task 1: Print all the even numbers b/w 1-n
+// -- task 2: Print all factors of 5 upto n
+
+
+concept of lock:-
 
 
 
